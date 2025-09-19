@@ -69,9 +69,11 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 min-h-[500px]">
           {/* Left side - Image */}
           <div className="relative bg-gray-100">
-            <img
+            <Image
               src="/person-working-on-laptop-with-construction-plans-a.jpg"
               alt="Persona trabajando en laptop con planos de construcción"
+              width={800}
+              height={500}
               className="w-full h-full object-cover"
             />
           </div>
@@ -167,9 +169,11 @@ export default function HomePage() {
 
           {/* Right side - Image */}
           <div className="relative bg-gray-100">
-            <img
+            <Image
               src="/coffee-cup-glasses-and-notebook-on-desk-workspace.jpg"
               alt="Taza de café, anteojos y cuaderno en escritorio de trabajo"
+              width={800}
+              height={500}
               className="w-full h-full object-cover"
             />
           </div>
@@ -193,7 +197,7 @@ export default function HomePage() {
                 </h4>
               </div>
               <p className="text-gray-300 italic text-center">
-                "Metodología profesional en 4 etapas clave (01 al 04) para garantizar resultados precisos, eficientes y sin sobresaltos"
+                &quot;Metodología profesional en 4 etapas clave (01 al 04) para garantizar resultados precisos, eficientes y sin sobresaltos&quot;
               </p>
               <p className="text-xl font-semibold text-white mt-4">
                 Proyectista
@@ -204,9 +208,11 @@ export default function HomePage() {
           {/* Process Flow Diagram */}
           <div className="flex justify-center mb-16">
             <div className="relative">
-              <img
+              <Image
                 src="/construction-project-workflow-diagram-with-icons-a.jpg"
                 alt="Diagrama de flujo del proceso de construcción"
+                width={1200}
+                height={600}
                 className="w-full max-w-4xl"
               />
             </div>
@@ -220,7 +226,7 @@ export default function HomePage() {
                 <Image
                   src="/servicio-01.jpg"
                   alt="Imagen del servicio - Inicio del Proyecto"
-                  width={1280}
+                  width={800}
                   height={400}
                   className="w-full h-60 object-contain rounded-lg mb-6"
                 />
@@ -262,7 +268,7 @@ export default function HomePage() {
                 <Image
                   src="/servicio-02.png"
                   alt="Imagen del servicio - Diseño Esquemático"
-                  width={1280}
+                  width={800}
                   height={400}
                   className="w-full h-60 object-contain rounded-lg mb-6"
                 />
@@ -291,7 +297,7 @@ export default function HomePage() {
                 <Image
                   src="/servicio-03.png"
                   alt="Imagen del servicio - Desarrollo de Anteproyecto"
-                  width={1280}
+                  width={800}
                   height={400}
                   className="w-full h-60 object-contain rounded-lg mb-6"
                 />
@@ -333,7 +339,7 @@ export default function HomePage() {
                 <Image
                   src="/servicio-04.png"
                   alt="Imagen del servicio - Desarrollo del Proyecto"
-                  width={1280}
+                  width={800}
                   height={400}
                   className="w-full h-60 object-contain rounded-lg mb-6"
                 />
@@ -373,7 +379,7 @@ export default function HomePage() {
             <h3 className="text-2xl font-bold text-gray-800">Dirección Técnica de Obra Certificada</h3>
           </div>
           <p className="text-center text-gray-700 italic mb-2">
-            "Supervisión profesional para garantizar que tu obra se ejecute fielmente al proyecto aprobado"
+            &quot;Supervisión profesional para garantizar que tu obra se ejecute fielmente al proyecto aprobado&quot;
           </p>
           <p className="text-center font-semibold text-gray-800 mb-8">Director de obra</p>
 
@@ -416,9 +422,11 @@ export default function HomePage() {
               </div>
 
               <div>
-                <img
+                <Image
                   src="/construction-site-supervision-and-quality-control-.jpg"
                   alt="Supervisión profesional de obra"
+                  width={800}
+                  height={500}
                   className="w-full rounded-lg shadow-md"
                 />
               </div>
@@ -435,7 +443,7 @@ export default function HomePage() {
             <h3 className="text-2xl font-bold text-white">Gestión Estratégica de Obra: Optimización Total</h3>
           </div>
           <p className="text-center text-gray-300 italic mb-2">
-            "Coordinación integral de recursos, tiempos y procesos para maximizar la eficiencia de tu proyecto"
+            &quot;Coordinación integral de recursos, tiempos y procesos para maximizar la eficiencia de tu proyecto&quot;
           </p>
           <p className="text-center font-semibold text-white mb-8">Gestión profesional de obra</p>
 
@@ -478,9 +486,11 @@ export default function HomePage() {
               </div>
 
               <div>
-                <img
+                <Image
                   src="/construction-project- gestion.jpg"
                   alt="Gestión estratégica de obra"
+                  width={800}
+                  height={500}
                   className="w-full rounded-lg shadow-md"
                 />
               </div>
@@ -535,58 +545,74 @@ export default function HomePage() {
             }}
           >
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/modern-house-construction-project.jpg"
                 alt="Proyecto de construcción de casa moderna"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/apartment-construction.png"
                 alt="Construcción de edificio de apartamentos"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/office-renovation.png"
                 alt="Renovación de edificio de oficinas"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/residential-house-extension.jpg"
                 alt="Extensión de casa residencial"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/commercial-building-construction.png"
                 alt="Construcción de edificio comercial"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/interior-renovation-project.jpg"
                 alt="Proyecto de renovación interior"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/architectural-design-blueprints.jpg"
                 alt="Planos de diseño arquitectónico"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <div className="flex-shrink-0 w-80 h-60 bg-gray-200 rounded-lg overflow-hidden">
-              <img
+              <Image
                 src="/construction-site-supervision.jpg"
                 alt="Supervisión de obra en construcción"
+                width={400}
+                height={300}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
